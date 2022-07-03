@@ -14,8 +14,8 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/home",
     name: "Home",
-    component: () => import("~/views/home/index.vue"),
-  },
+    component: () => import("~/pages/login/LoginPage.vue"),
+  } /* ,
   {
     path: "/hero",
     name: "Hero",
@@ -29,7 +29,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/:pathMatch(.*)*",
     redirect: "/404",
-  },
+  }, */,
 ];
 
 const index = createRouter({
